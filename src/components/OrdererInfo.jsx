@@ -16,7 +16,7 @@ const OrdererInfo = () => {
   const diorder = items.reduce(
     (name, item) =>
       name + item.name + " : " + item.qty + " x " + item.price + ",",
-    0
+    ""
   );
 
   // trying submit
